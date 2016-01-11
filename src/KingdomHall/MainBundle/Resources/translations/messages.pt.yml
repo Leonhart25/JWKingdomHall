@@ -1,284 +1,291 @@
 jwkh:
     common:
-        add: Ajouter
-        import: Importer
-        export: Exporter
-        save: Sauver
-        cancel: Annuler
-        borrow: Emprunter
-        return: Rendre
-        edit: Modifier
-        back: Retour
-        sending: Envoi
-        confirm: Confirmer
+        add: Adicionar
+        import: Importação
+        export: Exportação
+        save: Salvar
+        cancel: Cancelar
+        borrow: Requisitar
+        return: Restituir
+        edit: Modificar
+        back: Regresso
+        sending: Envio
+        confirm: Confirmar
         ok: OK
-        yes: Oui
-        no: Non
-        print: Imprimer
-        download: Télécharger
-        forward: Transférer
+        yes: Sim
+        no: Não
+        print: Imprimir
+        download: Descarregar
+        forward: Transferir
 
     modal:
         confirmation:
-            content_header: Confirmation
-            content_body: Es-tu sûr de vouloir réaliser cette action ?
+            content_header: Confirmação
+            content_body: Tens a certeza que queres realizar esta acção ?
         info:
-            content_header: Information
-            content_body: Information.
+            content_header: Informação
+            content_body: Informação.
 
     navbar:
         territories:
-            title: Territoires
-            list: Liste
-            campaigns: Campagnes
-        publishers: Proclamateurs
+            title: Territórios
+            list: Lista
+            campaigns: Campanhas
+        publishers: Proclamadores
         admin:
-            title: Administration
-            settings: Paramètres
-            users: Utilisateurs
+            title: Administração
+            settings: Parãmetros
+            users: Utilizadores
         user:
-            profile: Mon profil
-            logout: Déconnexion
+            profile: Meu perfil
+            logout: Desconexão
 
     home:
         welcome: JW Kingdom Hall
-        header: Bienvenue sur l'application JW Kingdom Hall !
+        header: Bem-vindo neste application JW Kingdom Hall !
         content: |
-            <p>Le but de cette application est de fournir quelques outils administratifs pour faciliter la gestion des
-            services au sein d'une congrégation.</p>
-            <p>Le menu en haut à droite te permet de te déconnecter de l'application ou de changer de congrégation.</p>
-            <p>Le menu en haut à gauche te permet de naviguer entre les différentes sections du site. La seule section
-            actuellement ouverte concerne la gestion des territoires.</p>
+            <p>O objetivo desta aplicação é fornecer algumas ferramentas administrativas para facilitar o gerenciamento de serviços dentro de uma congregação.</p>
+            <p>O menu no canto superior direito permite que você efetue logout do aplicativo ou a mudança de congregação.</p>
+            <p>O menu no canto superior esquerdo permite que você navegue entre as diferentes seções do site. A única seção
+            atualmente aberta é a gestão dos territórios.</p>
         territory:
             stats: |
-                Il y a actuellement<br />
+                Existem actualmente<br />
                 <ul>
-                    <li>%borrowed% territoires empruntés</li>
-                    <li class="text-danger">%late% territoires en retard</li>
+                    <li>%borrowed% territórios emprestados</li>
+                    <li class="text-danger">%late% territórios atrasados</li>
                 </ul>
         changelog: |
-            <h3>Derniers changements</h3>
-            <h4>26 octobre 2015</h4>
+            <h3>Últimas alterações</h3>
+            <h4>11 Janeiro 2016</h4>
             <ul>
-                <li>Nouveautés
+                <li>Novidades
                     <ul>
-                        <li>Transférer un territoire d'un proclamateur à un autre</li>
-                        <li>Ajout des territoires de commerce</li>
-                        <li>Possibilité de modifier et supprimer des entrées d'historique</li>
-                        <li>Amélioration du sélecteur de proclamateurs</li>
+                        <li>Tradução para o Português deste applicativo</li>
                     </ul>
                 </li>
-                <li>Corrections
+            <h4>16 Outubro 2015</h4>
+            <ul>
+                <li>Novidades
                     <ul>
-                        <li>Correction de validation multiple des formulaires</li>
+                        <li>Transferir um território d'um proclamador à um outro</li>
+                        <li>Adicionar os territórios de commercio</li>
+                        <li>Capacidade de editar e excluir entradas do histórico</li>
+                        <li>Melhoria do selector de Proclamadores</li>
                     </ul>
                 </li>
-            </ul>
-            <h4>14 septembre 2015</h4>
-            <ul>
-                <li>Nouveautés
+                <li>Correções
                     <ul>
-                        <li>Sauvegarde de la page en cours dans la liste des territoires</li>
-                        <li>Ajout du joker * dans la recherche de territoires (exemple '3*')</li>
-                        <li>Ajout de la date du jour comme date par défaut dans le sélecteur de date.</li>
+                        <li>Correção de vários validação de formulário</li>
                     </ul>
                 </li>
             </ul>
-            <h4>24 août 2015</h4>
+            <h4>14 Setembro 2015</h4>
             <ul>
-                <li>Nouveautés
+                <li>Novidades
                     <ul>
-                        <li>Ajout de la charge de travail sur un territoire</li>
+                        <li>Salva da página atual na lista de territórios</li>
+                        <li>Adição do caractere * na busca de territórios (exemple '3*')</li>
+                        <li>Adicionando a data atual como uma data por padrão no selecionador de data.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>24 agosto 2015</h4>
+            <ul>
+                <li>Novidades
+                    <ul>
+                        <li>Adição da carga de trabalho sobre um território</li>
                     </ul>
                 </li>
             </ul>
             <h4>20 août 2015</h4>
             <ul>
-                <li>Nouveautés
+                <li>Novidades
                     <ul>
-                        <li>Gestion des utilisateurs.</li>
-                        <li>Ajout d'un menu d'administration</li>
-                        <li>Ajout d'une page "profil" accessible depuis le bouton "utilisateur" en haut à droite</li>
+                        <li>Gerenciamento de usuários.</li>
+                        <li>Adicionando um menu de admin</li>
+                        <li>Adição de uma página de "perfil", acessível a partir do botão 'usuário' no canto superior direito</li>
                     </ul>
                 </li>
             </ul>
-            <h4>10 août 2015</h4>
+            <h4>10 agosto 2015</h4>
             <ul>
-                <li>Nouveautés
+                <li>Novidades
                     <ul>
-                        <li>Ajout d'une colonne "téléphone" dans la liste des territoires.</li>
+                        <li>Adicionando uma coluna "telefone" na lista de territórios.</li>
                     </ul>
                 </li>
             </ul>
             <h4>5 août 2015</h4>
             <ul>
-                <li>Nouveautés
+                <li>Novidades
                     <ul>
-                        <li>Notifications automatiques par email</li>
+                        <li>Notificações automáticas por e-mail</li>
                     </ul>
                 </li>
-                <li>Corrections
+                <li>Correções
                     <ul>
-                        <li>Correction de la génération des fichiers pdf</li>
-                        <li>Correction des tris dans la liste des territoires</li>
+                        <li>Correção da geração de arquivos pdf</li>
+                        <li>Correção das escolhas na lista de territórios</li>
                     </ul>
                 </li>
             </ul>
 
     territories:
         list:
-            content_header: Liste des territoires
+            content_header: Lista dos territórios
             s13: S-13
         new:
-            content_header: Nouveau territoire
+            content_header: Novo território
         edit:
-            content_header: Modification
+            content_header: Modificação
         borrow:
-            content_header: Emprunt
+            content_header: Empréstimos
             unavailable: >
-                Ce territoire n'est pas disponible pour le moment. Soit aucune campagne n'est prévue soit le territoire
-                a déjà été travaillé.
+                Este território não está disponivel no momento. Ó nenhuma campanha está prevista, ó o território
+                já foi trabalhado.
         return:
-            content_header: Retour
-            worked: Le territoire a-t-il été parcouru ?
+            content_header: Retornar
+            worked: O território foi realizado ?
             error:
-                return_date: La date de retour ne doit pas précéder la date d'emprunt
+                return_date: A data de retorno não deve preceder a data dos empréstimos
         forward:
-            content_header: Transférer
+            content_header: Transferir
         novisit:
             remove_confirmation:
-                message: Veux-tu vraiment supprimer ces personnes à ne pas visiter ?
+                message: Você quer mesmo excluir essas pessoas a não visitar ?
             new:
-                content_header: Nouvelle personne à ne pas visiter
+                content_header: Nova pessoa a não visitar
         history:
             remove_confirmation:
-                message: Veux-tu vraiment supprimer cette entrée d'historique ?
+                message: Você quer realmente excluir esta entrada do histórico ?
         view:
-            phone: Territoire par téléphone
-            commercial: Territoire de commerces
-            map: Carte du territoire
-            novisit: Personnes à ne pas visiter
-            history: Historique
-            languages: Parcourir tout le territoire SAUF:
-            workload: "{0} Charge de travail inconnue|{1} %number% proclamateur pour 2 heures|]1,Inf[ %number% proclamateurs pour 2 heures"
+            phone: Território por telefone
+            commercial: Território de lojas
+            map: Mapa do território
+            novisit: Pessoas a não visitar
+            history: Histórico
+            languages: Procure todo o território, exceto:
+            workload: "{0} Carga de trabalho desconhecida|{1} %number% proclamador por 2 horas|]1,Inf[ %number% proclamador por 2 horas"
         remove_confirmation:
-            header: Confirmation
-            message: Veux-tu vraiment supprimer les territoires sélectionnés ?
+            header: Confirmação
+            message: Você quer realmente suprimir os territórios selecionados ?
         s13:
-            header: Relevé des attributions du territoire
+            header: Recolha da atribuição do território
         email:
             warning:
-                subject: Territoire %number% à rendre bientôt
+                subject: Território %number% a desenvolver em breve
                 body: |
-                    Cher/Chère %firstName%,
+                    Querido(a) irmão(ã) %firstName%,
 
-                    La période d'emprunt du territoire %number% arrivera à échéance le %date% prochain. Il te reste donc encore un mois pour pouvoir le travailler avant de le rendre au service des territoires.
+                    O período d'emprestimo do território %number% irá expirar em breve, dia %date%. Ainda tens um mês para o trabalhar antes do retornar ó serviço dos territórios.
+                    
 
-                    Fraternellement,
-                    Le services des territoires.
+                    Fraternalmente,
+                    O Serviço dos territórios.
 
             danger:
-                subject: Territoire %number% à rendre
+                subject: Território %number% a retornar
                 body: |
-                    Cher/Chère %firstName%,
+                    Querido(a) irmão(ã) %firstName%,
 
-                    La période d'emprunt du territoire %number% est arrivée à échéance le %date%. Nous te remercions de bien vouloir le rendre dès que possible au service des territoires.
+                    O período do território %number% atingio o prazo no %date%. Agradecemos que possas retornar o mais rápido possível o território ò serviço dos territórios.
 
-                    Fraternellement,
-                    Le services des territoires.
+                    Fraternalmente,
+                    O Serviço dos territórios.
         print:
-            language_instructions: Le premier nom de famille sur la boîte aux lettres est déterminant pour définir à qui tu dois prêcher. Si tu rencontres une personne parlant une autre langue, tu es encouragé à contacter personellement un proclamateur actif dans un groupe ou dans une congrégation de la langue de la personne intéressée. Merci de ta collaboration.
-            phone: Ce territoire contient des immeubles contactés par <b>téléphone</b>.
-            commercial: Ce territoire contient des <b>commerces</b> parcourus séparément.
+            language_instructions: A primeira nome de família da caixa de correio é decisivo para definir a quem podes pregar. Se encontras uma pessoa que fala outra língua, és encorajado a contactar pessoalmente um proclamador ativo num grupo ò numa congregação na língua da pessoa. Obrigado pela a tua cooperação.
+            phone: Este território contém edifícios contactados por <b>telefone</b>.
+            commercial: Este território contém umas <b>lojas</b> percorridos separadamente.
 
     campaigns:
         list:
-            content_header: Liste des campagnes
+            content_header: Lista de campanhas
         new:
-            content_header: Nouvelle campagne
+            content_header: Nova campanha
         edit:
-            content_header: Modification
+            content_header: Modificação
         remove_confirmation:
-            header: Confirmation
-            message: Veux-tu vraiment supprimer cette campagne ?
+            header: Confirmação
+            message: Você quer realmente suprimir esta campanha ?
 
     admin:
         settings:
-            content_header: Paramètres
+            content_header: Parâmetros
         users:
             list:
-                content_header: Utilisateurs
+                content_header: Usuários
                 remove_confirmation:
-                    message: Veux-tu vraiment supprimer cet utilisateur ?
+                    message: Você realmente quer suprimir este usuário ?
             edit:
-                content_header: Modification
+                content_header: Modificação
 
     publishers:
         list:
-            content_header: Liste des proclamateurs
+            content_header: Lista dos Proclamadores
         edit:
-            content_header: Modification
-            create_user_button: Créer utilisateur
-            delete_user_button: Supprimer utilisateur
+            content_header: Modificação
+            create_user_button: Criar usuário
+            delete_user_button: Suprimir usuário
             remove_confirmation:
-                message: Veux-tu vraiment supprimer les proclamateurs sélectionnés?
+                message: Você quer realmente suprimir os proclamadores selecionados?
         email:
             welcome:
-                subject: Bienvenue sur le site JW Kingdom Hall
+                subject: Bem vindo ao site JW Kingdom Hall
                 body: |
-                    Cher frère,
+                    Querido irmão,
 
-                    Tu as été invité à t'inscrire sur le site JW Kingdom Hall. Cliques sur le lien suivant pour choisir un nom d'utilisateur et un mot de passe: %link%.
+                    Foste convidado para te registrares no site JW Kingdom Hall. Clique no link a seguir para selecionar um nome de usuário e uma senha: %link%.
 
-                    Fraternellement,
+                    Fraternalmente,
                     JW Kingdom Hall
 
     entity:
         territory:
-            entity: Territoire
-            standard: Standard
-            campaign: Campagne
+            entity: Território
+            standard: Normal
+            campaign: Campanha
             type: Type
-            number: Numéro
-            name: Nom
-            area: Région
-            borrow_date: Emprunté le
-            return_date: Rendu le
-            map: Carte
-            phone: Téléphone
-            commercial: Commerces
-            excluded_languages: Langues à ne pas visiter
-            notified: Notifié
-            workload: Charge de travail
+            number: Número
+            name: Nome
+            area: Região
+            borrow_date: Emprestado no
+            return_date: Emitido em
+            map: Mapa
+            phone: Telefone
+            commercial: Lojas
+            excluded_languages: Línguas a não visitar
+            notified: Notificado
+            workload: Carga de trabalho
 
         territory_history:
-            borrow_date: Emprunté le
-            return_date: Rendu le
+            borrow_date: Emprestado o
+            return_date: Emitido em
 
         territory_no_visit:
-            name: Nom
-            address: Adresse
-            date: Date
+            name: Nome
+            address: Endereço
+            date: Data
 
         publisher:
-            entity: Proclamateur
-            first_name: Prénom
-            last_name: Nom
+            entity: Proclamador
+            first_name: Nome próprio
+            last_name: Apelido
             email: Email
-            is_user: Utilisateur du site
+            is_user: Utilizador do sítio
 
         campaign:
-            name: Nom
-            start_date: Début
-            end_date: Fin
+            name: Nome
+            start_date: Início
+            end_date: Final
 
         setting:
-            date_format_twig: Format de date
-            territory_max_borrow_time: Période maximale pour l'emprunt d'un territoire
-            territory_warning_borrow_time: Période avant notification de retour de territoire
-            excluded_languages: Liste des langues à ne pas faire
+            date_format_twig: Formato de data
+            territory_max_borrow_time: Prazo máximo para o empréstimo de um território
+            territory_warning_borrow_time: Período antes da notificação de retorno de território
+            excluded_languages: Lista de línguas a não fazer
 
         user:
-            username: Nom d'utilisateur
-            password: Mot de passe
-            roles: Rôles
+            username: Nome de usuário
+            password: Senha
+            roles: Funções
